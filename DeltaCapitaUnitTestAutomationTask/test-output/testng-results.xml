@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-12T19:05:03 IST" name="Default suite" finished-at="2025-08-12T19:05:03 IST" duration-ms="115">
+    <groups>
+    </groups>
+    <test started-at="2025-08-12T19:05:03 IST" name="Default test" finished-at="2025-08-12T19:05:03 IST" duration-ms="115">
+      <class name="com.deltacapita.test.FinalCalulatorBasketTest">
+        <test-method signature="testEmptyBasket()[pri:0, instance:com.deltacapita.test.FinalCalulatorBasketTest@2e55dd0c]" started-at="2025-08-12T19:05:03 IST" name="testEmptyBasket" finished-at="2025-08-12T19:05:03 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyBasket -->
+        <test-method signature="testLimeThreeForTwo()[pri:0, instance:com.deltacapita.test.FinalCalulatorBasketTest@2e55dd0c]" started-at="2025-08-12T19:05:03 IST" name="testLimeThreeForTwo" finished-at="2025-08-12T19:05:03 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLimeThreeForTwo -->
+        <test-method signature="testMelonBuyOneGetOneFreeEvenCount()[pri:0, instance:com.deltacapita.test.FinalCalulatorBasketTest@2e55dd0c]" started-at="2025-08-12T19:05:03 IST" name="testMelonBuyOneGetOneFreeEvenCount" finished-at="2025-08-12T19:05:03 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMelonBuyOneGetOneFreeEvenCount -->
+        <test-method signature="testMelonBuyOneGetOneFreeOddCount()[pri:0, instance:com.deltacapita.test.FinalCalulatorBasketTest@2e55dd0c]" started-at="2025-08-12T19:05:03 IST" name="testMelonBuyOneGetOneFreeOddCount" finished-at="2025-08-12T19:05:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMelonBuyOneGetOneFreeOddCount -->
+        <test-method signature="testMixedBasketWithOffers()[pri:0, instance:com.deltacapita.test.FinalCalulatorBasketTest@2e55dd0c]" started-at="2025-08-12T19:05:03 IST" name="testMixedBasketWithOffers" finished-at="2025-08-12T19:05:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMixedBasketWithOffers -->
+        <test-method signature="testMultipleDifferentItems()[pri:0, instance:com.deltacapita.test.FinalCalulatorBasketTest@2e55dd0c]" started-at="2025-08-12T19:05:03 IST" name="testMultipleDifferentItems" finished-at="2025-08-12T19:05:03 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleDifferentItems -->
+        <test-method signature="testSingleApple()[pri:0, instance:com.deltacapita.test.FinalCalulatorBasketTest@2e55dd0c]" started-at="2025-08-12T19:05:03 IST" name="testSingleApple" finished-at="2025-08-12T19:05:03 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSingleApple -->
+        <test-method signature="testUnknownItem()[pri:0, instance:com.deltacapita.test.FinalCalulatorBasketTest@2e55dd0c]" started-at="2025-08-12T19:05:03 IST" name="testUnknownItem" finished-at="2025-08-12T19:05:03 IST" duration-ms="2" status="FAIL">
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method FinalCalulatorBasketTest.testUnknownItem()[pri:0, instance:com.deltacapita.test.FinalCalulatorBasketTest@2e55dd0c] should have thrown an exception of type class java.lang.IllegalArgumentException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method FinalCalulatorBasketTest.testUnknownItem()[pri:0, instance:com.deltacapita.test.FinalCalulatorBasketTest@2e55dd0c] should have thrown an exception of type class java.lang.IllegalArgumentException
+at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:82)
+at org.testng.internal.TestInvoker.considerExceptions(TestInvoker.java:749)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:634)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnknownItem -->
+      </class> <!-- com.deltacapita.test.FinalCalulatorBasketTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
